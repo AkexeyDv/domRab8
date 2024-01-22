@@ -34,7 +34,31 @@ public class Main {
 
         }
         System.out.println();
+        //Задание 3
 
+        for(int i=arr.length-1;i>=0;i--){
+            System.out.print(arr[i]);
+            if (i!=0){
+                System.out.print(", ");
+            }
+
+        }
+        System.out.println();
+        for(int i=arr1.length-1;i>=0;i--){
+            System.out.print(arr1[i]);
+            if (i!=0){
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for(int i=symArr.length-1;i>=0;i--){
+            System.out.print(symArr[i]);
+            if (i!=0){
+                System.out.print(", ");
+            }
+
+        }
+        System.out.println();
 
     }
 }
