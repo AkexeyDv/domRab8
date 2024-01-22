@@ -31,6 +31,7 @@ public class Main {
             if (i!=5){
                 System.out.print(", ");
             }
+
         }
         System.out.println();
 
