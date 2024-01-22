@@ -11,24 +11,24 @@ public class Main {
         char[] symArr={'П','р','и','в','е','т'};
 
         //Задание 2
-        for(int i=0;i<=2;i++){
+        for(int i=0;i<=arr.length-1;i++){
             System.out.print(arr[i]);
-            if (i!=2){
+            if (i!=arr.length-1){
                 System.out.print(", ");
             }
 
         }
         System.out.println();
-        for(int i=0;i<=2;i++){
+        for(int i=0;i<=arr1.length-1;i++){
             System.out.print(arr1[i]);
-            if (i!=2){
+            if (i!=arr1.length-1){
                 System.out.print(", ");
             }
         }
         System.out.println();
-        for(int i=0;i<=5;i++){
+        for(int i=0;i<=symArr.length-1;i++){
             System.out.print(symArr[i]);
-            if (i!=5){
+            if (i!=symArr.length-1){
                 System.out.print(", ");
             }
 
